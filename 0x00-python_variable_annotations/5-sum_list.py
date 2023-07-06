@@ -2,11 +2,9 @@
 """
 a module which contains a function as described by the function
 """
+from typing import List
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """takes a list of floats and returns their sum"""
-    result = 0.0
-    for num in input_list:
-        result += num
-    return result
+    return sum(input_list)
