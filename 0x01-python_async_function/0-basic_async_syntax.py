@@ -8,7 +8,7 @@ import asyncio
 import random
 
 
-async def wait_random(max_delay: float = 10) -> float:
+async def wait_random(max_delay: int = 10) -> float:
     """the function that receives the integer and passes it"""
     r = random.uniform(0, max_delay)
     await asyncio.sleep(r)
