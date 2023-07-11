@@ -2,10 +2,7 @@
 """
 module holds function which yields a rand number
 """
-
-import asyncio
-import random
-from 0-async_generator.py import async_generator
+from 0 - async_generator.py import async_generator
 
 
 async def async_comprehension() -> list[float]:
